@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    caret-color: transparent;
+}
+
+@font-face {
+    font-family: font;
+    src: url('src/assets/fonts/Lobster-Regular.ttf');
+}
+
+@font-face {
+    font-family: footer;
+    src: url('src/assets/fonts/Righteous-Regular.ttf');
+}
+
+@font-face {
+    font-family: home;
+    src: url('src/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf');
+}

@@ -1,0 +1,10 @@
+fix
+-responsive of footer 
+-men on home 
+-nav disappear on 100vh
+
+rebuild
+-Home one component and dynamic title and pics
+
+add
+animation social app
