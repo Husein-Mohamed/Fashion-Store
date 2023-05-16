@@ -1,8 +1,0 @@
-//TODO
-fix
--header button when minimize not expanded
--responsive more than 3 cat (wrap)
-
-add
--header when scroll change color 
-
