@@ -3,46 +3,126 @@
     margin-bottom: 100px;
 }
 
-
 img{
     width: 450px;
-    height: 300px;
-}
-
-.category {
-    display: flex;
-    flex-direction: row;
-}
-
-#woman{
-    padding-left: 80px;
+    height: 280px;
 }
 
 span{
     font-family: font;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
-#card1,#card2,#card3{
-    opacity: .8;
+#card:hover{
+    background-color:rgba(0, 255, 255, 0.748);
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 1;
+    scale:1.1;
+    transform:rotate(3deg)
 }
 
-#card1:hover{
-    background-color:rgba(252, 18, 213, 0.279);
-    border-radius: 20px;
-    cursor: pointer;
-    opacity: 1;
+#catego{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap:40px
 }
-#card2:hover{
-    background-color:rgba(0, 255, 255, 0.279);
-    border-radius: 20px;
-    cursor: pointer;
-    opacity: 1;
+
+
+/* we need to handel this shit 💢 */
+@media (max-width:1565px) {
+    img{
+        width: 370px;
+        height: 250px;
+    }
+    #catego{
+        gap:30px
+    }
 }
-#card3:hover{
-    background-color:rgba(217, 214, 58, 0.279);
-    border-radius: 20px;
-    cursor: pointer;
-    opacity: 1;
+
+@media (max-width:1520px) {
+    img{
+        width: 340px;
+        height: 240px;
+    }
+    #catego{
+        gap:20px
+    }
+}
+
+@media (max-width:1485px) {
+    img{
+        width: 320px;
+        height: 235px;
+    }
+    #catego{
+        gap:1px
+    }
+}
+
+@media (max-width:1400px) {
+    img{
+        width: 300px;
+        height: 230px;
+    }
+    #catego{
+        gap:20px
+    }
+}
+
+@media (max-width:1290px) {
+    img{
+        width: 300px;
+        height: 230px;
+    }
+    #catego{
+        gap:0px
+    }
+}
+
+@media (max-width:1200px) {
+    img{
+        width: 300px;
+        height: 230px;
+    }
+    #catego{
+        gap:10px
+    }
+}
+
+@media (max-width:1060px) {
+    img{
+        width: 300px;
+        height: 230px;
+    }
+    #catego{
+        gap:0px
+    }
+}
+
+@media (max-width:992px) {
+    img{
+        width: 370px;
+        height: 270px;
+        margin-left: 260px;
+    }
+    #catego{
+        flex-direction: column;
+        gap:30px
+    }
+}
+
+@media (max-width:768px) {
+    img{
+        width: 370px;
+        height: 250px;
+        margin-left: 100px;
+    }
+    #catego{
+        flex-direction: column;
+    }
 }

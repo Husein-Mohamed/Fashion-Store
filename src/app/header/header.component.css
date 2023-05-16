@@ -42,7 +42,7 @@ a{
 }
 
 nav{
-    background-color:rgba(0, 0, 0, 0.95);
+    background-color:rgba(26, 26, 26, 0.846);
     height:84px;
 }
 
@@ -60,4 +60,6 @@ nav{
     opacity:1
 }
 
-
+.navbar-toggler[aria-expanded="true"]{
+    border-color: black
+ }

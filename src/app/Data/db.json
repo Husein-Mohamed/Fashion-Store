@@ -1,0 +1,51 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "type": "Woman",
+      "title": "New Trend",
+      "img": "assets/imgs/category/woman.png"
+    },
+    {
+      "id": 2,
+      "type": "Men",
+      "title": "Winter 2021",
+      "img": "assets/imgs/category/men.png"
+    },
+    {
+      "id": 3,
+      "type": "Accessory",
+      "title": "Summer 2023",
+      "img": "assets/imgs/category/cap.png"
+    }
+  ],
+  "products":[
+    {
+      "id":1,
+      "title":"T-shert",
+      "price":"$30.21",
+      "image":"assets/imgs/products/1.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },
+    {
+      "id":2,
+      "title":"TEST",
+      "price":"$10.00",
+      "image":"assets/imgs/products/2.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },
+    {
+      "id":3,
+      "title":"TEST",
+      "price":"$50.1",
+      "image":"assets/imgs/products/3.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },{
+      "id":4,
+      "title":"TEST",
+      "price":"$310.21",
+      "image":"assets/imgs/products/4.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    }
+  ]
+}

@@ -7,7 +7,6 @@
 
 footer{
     background-color: rgb(26, 26, 26);
-    height: 70vh;
 }
 
 #social img {
@@ -16,11 +15,15 @@ footer{
     cursor: pointer;
 }
 
+#social img:hover {
+    transform:rotate(-20deg);
+    scale:1.05
+}
+
 #pay img{
     width: 80px;
     height: 80px;
     margin-left:30px;
-    fill: white;
 }
 
 #h1,#h2,#h3,#h4{

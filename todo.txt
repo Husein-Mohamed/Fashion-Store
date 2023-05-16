@@ -1,10 +1,8 @@
+//TODO
 fix
--responsive of footer 
--men on home 
--nav disappear on 100vh
-
-rebuild
--Home one component and dynamic title and pics
+-header button when minimize not expanded
+-responsive more than 3 cat (wrap)
 
 add
-animation social app
+-header when scroll change color 
+

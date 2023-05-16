@@ -1,33 +1,15 @@
 <div class="container">
     <div class="row">
-            <div id="card1" class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
-                <div  class="d-flex flex-row align-items-start">
-                    <div>
-                        <span>Woman</span><br>
-                        <span>Spring 2022</span>
+            <div id="catego" class="col">
+                <div id="card" class="col-12 col-lg-4" *ngFor="let c of category">
+                    <div  class="d-flex flex-row align-items-start justify-content-center">
+                        <div>
+                            <span>{{c.type}}</span><br>
+                            <span style="padding-top:15px">{{c.title}}</span>
+                        </div>
+                        <img  src="{{c.img}}" >
                     </div>
-                    <img  src="assets/imgs/woman.png" >
                 </div>
-            </div>
-
-            <div id="card2" class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
-                <div  class="d-flex flex-row align-items-start">
-                    <div>
-                        <span>Men</span><br>
-                        <span>Winter 2021</span>
-                    </div>
-                    <img  src="assets/imgs/men.png" style="padding-right: 25px;padding-bottom: 1px;">
-                </div>
-            </div>
-
-            <div id="card3" class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
-                <div  class="d-flex flex-row align-items-start">
-                    <div>
-                        <span>Accessory</span><br>
-                        <span style="padding-top: 7px">Summer 2023</span>
-                    </div>
-                    <img   src="assets/imgs/cap.png" >
-                </div>
-            </div>
+        </div>
     </div>
 </div>
