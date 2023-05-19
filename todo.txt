@@ -5,3 +5,7 @@ fix
 
 add
 -header when scroll change color
+
+remove (.gitignore)
+todo.txt
+assets from github
