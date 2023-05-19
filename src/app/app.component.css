@@ -3,7 +3,7 @@ body{
 }
 
 @font-face {
-    font-family: font;
+    font-family: header;
     src: url('src/assets/fonts/Lobster-Regular.ttf');
 }
 

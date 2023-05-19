@@ -24,27 +24,53 @@
       "id":1,
       "title":"T-shert",
       "price":"$30.21",
-      "image":"assets/imgs/products/1.jpg",
+      "image":"assets/products/1.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },
     {
       "id":2,
-      "title":"TEST",
+      "title":"Jacket",
       "price":"$10.00",
-      "image":"assets/imgs/products/2.jpg",
+      "image":"assets/products/2.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },
     {
       "id":3,
-      "title":"TEST",
+      "title":"Formal shirt",
       "price":"$50.1",
-      "image":"assets/imgs/products/3.jpg",
+      "image":"assets/products/3.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },{
       "id":4,
-      "title":"TEST",
+      "title":"Casual fit",
       "price":"$310.21",
-      "image":"assets/imgs/products/4.jpg",
+      "image":"assets/products/4.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },{
+      "id":1,
+      "title":"T-shert",
+      "price":"$30.21",
+      "image":"assets/products/1.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },
+    {
+      "id":2,
+      "title":"Jacket",
+      "price":"$10.00",
+      "image":"assets/products/2.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },
+    {
+      "id":3,
+      "title":"Formal shirt",
+      "price":"$50.1",
+      "image":"assets/products/3.jpg",
+      "icon":"assets/imgs/icos/heart.png"
+    },{
+      "id":4,
+      "title":"Casual fit",
+      "price":"$310.21",
+      "image":"assets/products/4.jpg",
       "icon":"assets/imgs/icos/heart.png"
     }
   ]

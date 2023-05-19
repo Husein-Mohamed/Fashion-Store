@@ -1,6 +1,6 @@
 h1{
-    font-size: 50px;
-    margin-top: 40px;
+    font-size: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     font-family:footer
 }
@@ -14,26 +14,101 @@ h1{
 
 #catego{
     display:flex;
-    gap: 20px;
-    font-size: 20px;
+    font-size: 18px;
     opacity:0.8;
+    font-family: footer;
+    margin-bottom: 10px;
+}
+
+.cat {
+    border:0px ;
+    background-color: white;
+    color:rgba(0, 0, 0, 0.736);
+    opacity: .8;
+}
+
+.cat.active,
+.cat:hover,
+.cat:focus{
+    color:black;
+    opacity: 1;
+}
+
+#ico{
+    width: 25px;
+    height: 25px;
+}
+
+#prodcImg{
+    width: 305px;
+    height: 400px;
+}
+
+#prodcImg:hover{
+    animation: scale 1s linear;
+}
+
+@keyframes scale {
+    0%{scale:1}
+    /* 25%{scale:1.03} */
+    50%{scale:1.05}
+    /* 75%{scale:1.08} */
+    100%{scale:1}
+}
+
+
+
+#producTitle{
+    color:rgba(0, 0, 0, 0.557);
+    margin-bottom: 0;
+    font-size: 20px;
     font-family: footer;
 }
 
-#catego:hover{
-    opacity: 1;
-    color:black
+#producTitle:hover{
+    color:rgb(60, 67, 185);
+    cursor: pointer;
 }
 
-#searchBtn{
-    width: 200px;
+#price{
+    color:rgba(0, 0, 0, 0.924);
+    font-family: header;
+    font-size: 16px;
 }
 
-#filterBtn{
-    width: 200px;
+@media (max-width:1400px){
+    #prodcImg{
+        width: 270px;
+        height: 450px;
+        margin-left:5px;
+        margin-right:5px;
+    }
 }
 
-img{
-    width: 200px;
-    height: 300px;
+@media (max-width:1200px){
+    #prodcImg{
+        width: 220px;
+        height: 400px;
+        margin-left:5px;
+        margin-right:5px;
+    }
+}
+
+@media (max-width:768px){
+    #prodcImg{
+        width: 250px;
+        height: 400px;
+        margin-left:5px;
+        margin-right:5px;
+    }
+}
+
+@media (max-width:576px){
+    #prodcImg{
+        width: 410px;
+        height: 550px;
+    }
+    #catego{
+        font-size: 17px;
+    }
 }

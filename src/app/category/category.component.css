@@ -5,7 +5,7 @@
 
 img{
     width: 450px;
-    height: 280px;
+    height: 290px !important;
 }
 
 span{
@@ -28,7 +28,6 @@ span{
 #catego{
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     gap:40px
 }
 
@@ -124,5 +123,25 @@ span{
     }
     #catego{
         flex-direction: column;
+        gap:20px
     }
 }
+
+@media (max-width:500px) {
+    img{
+        width: 340px;
+        height: 250px;
+        margin-left: 100px;
+    }
+    #catego{
+        flex-direction: column;
+    }
+    #card:hover{
+        background-color:rgba(255, 251, 0, 0.748);
+        border-radius: 20px;
+        cursor: pointer;
+        opacity: 1;
+        scale:1;
+    }
+}
+

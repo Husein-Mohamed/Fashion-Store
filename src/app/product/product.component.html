@@ -1,33 +1,39 @@
-<!-- <div class="conteiner">
-</div> -->
-
-<h1>PRODUCT OVERVIEW</h1>
-
-
-<div class="conteiner">
-        <div class="row" style="display: flex;margin-bottom: 100px;">
-            <div id="catego" class="col-12 col-md-6" >
-                <span>All Products</span>
-                <span>Woman</span>
-                <span>Men</span>
-                <span>Bag</span>
-                <span>Shoes</span>
-                <span>Watches</span>
-            </div>
-            <div id="btns" class="col-12 col-md-6" >
-                <div id="searchBtn" class="btn btn-primary">Search</div>
-                <div id="filterBtn" class="btn btn-warning">Filter</div>
-            </div>
-        </div>
-</div>
 
 <div class="container">
     <div class="row">
-        <div class="col d-flex flex-row justify-content-evenly gap-5"> 
-            <div class="col-12 col-s-6 col-md-4 col-lg-3 p-b-30 m-lr-auto mb-3">
-                <div style="display: flex;justify-content: start;">
+        <div class="col">
+            <h1>PRODUCT OVERVIEW</h1>
+        </div>
+    </div>
+    <div class="row" style="display: flex; margin-bottom: 100px">
+        <div id="catego" class="col-12 col-md-12 col-lg-6">
+            <button class="cat">All Products</button>
+            <button class="cat">Woman</button>
+            <button class="cat">Men</button>
+            <button class="cat">Bag</button>
+            <button class="cat">Shoes</button>
+            <button class="cat">Watches</button>
+        </div>
+        <div id="btns" class="col-12 col-md-12 col-lg-6">
+            <div id="searchBtn" class="btn btn-primary">Search</div>
+            <div id="filterBtn" class="btn btn-warning">Filter</div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-bottom: 100px;">
+    <div id="products" class="row d-flex flex-row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3"  *ngFor="let p of products">
+            <img id="prodcImg" src="{{p.image}}" />
+            <div>
+                <div class="d-flex flex-row justify-content-between mt-2">
+                    <div>
+                        <p id="producTitle">{{p.title}}</p>
+                        <p id="price">{{p.price}}</p>
+                    </div>
+                    <img id="ico" src="assets/icos/heart.png" />
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
 </div>
