@@ -1,7 +1,7 @@
 h1{
     font-size: 40px;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family:footer
 }
 
@@ -41,12 +41,30 @@ h1{
 
 #prodcImg{
     width: 305px;
-    height: 400px;
+    height: 395px;
 }
 
 #prodcImg:hover{
     animation: scale 1s linear;
 }
+
+
+#loadBtn{
+    /* width:200px; */
+    height:50px;
+    border-radius: 30px;
+    border:0px;
+    font-size: 13px;
+    font-family: footer;
+    padding: 0 60px 0 60px;
+    margin-bottom: 100px;
+}
+
+#loadBtn:hover{
+    color:white;
+    background-color: black
+}
+
 
 @keyframes scale {
     0%{scale:1}

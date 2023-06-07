@@ -24,7 +24,7 @@
       "id":1,
       "title":"T-shert",
       "price":"$30.21",
-      "image":"assets/products/1.jpg",
+      "image":"assets/products/8.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },
     {
@@ -50,27 +50,27 @@
       "id":1,
       "title":"T-shert",
       "price":"$30.21",
-      "image":"assets/products/1.jpg",
+      "image":"assets/products/9.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },
     {
       "id":2,
       "title":"Jacket",
       "price":"$10.00",
-      "image":"assets/products/2.jpg",
+      "image":"assets/products/6.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },
     {
       "id":3,
-      "title":"Formal shirt",
+      "title":"Classic Trench Coat",
       "price":"$50.1",
-      "image":"assets/products/3.jpg",
+      "image":"assets/products/7.jpg",
       "icon":"assets/imgs/icos/heart.png"
     },{
       "id":4,
-      "title":"Casual fit",
+      "title":"Vintage Inspired Classic",
       "price":"$310.21",
-      "image":"assets/products/4.jpg",
+      "image":"assets/products/10.jpg",
       "icon":"assets/imgs/icos/heart.png"
     }
   ]
