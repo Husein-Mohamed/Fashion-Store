@@ -13,6 +13,7 @@ span{
     position: absolute;
     font-size: 25px;
     padding-top: 10px;
+    padding-left: 20px;
 }
 
 #card:hover{
@@ -143,7 +144,7 @@ span{
         scale:1;
     }
     span{
-        margin-left: 25px;
+        margin-left: 35px;
     }
 }
 
