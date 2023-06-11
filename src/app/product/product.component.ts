@@ -18,5 +18,4 @@ export class ProductComponent implements OnInit {
       error:(err)=>{console.log(err);}
     })
   }
-
 }

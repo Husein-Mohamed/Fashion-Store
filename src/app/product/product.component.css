@@ -39,18 +39,31 @@ h1{
     height: 25px;
 }
 
-#prodcImg{
+#photo{
     width: 305px;
     height: 395px;
+    position: relative;
+    overflow: hidden;
+}
+
+#prodcImg{
+    width: 100%;
+    height: 395px;
+    scale:1;
+    transition: scale 1s;
+    position: absolute;
 }
 
 #prodcImg:hover{
-    animation: scale 1s linear;
+    scale:1.1;
+}
+
+#photo:hover > #quickBtn {
+    margin-top: 330px;
 }
 
 
 #loadBtn{
-    /* width:200px; */
     height:50px;
     border-radius: 30px;
     border:0px;
@@ -66,12 +79,26 @@ h1{
 }
 
 
-@keyframes scale {
-    0%{scale:1}
-    /* 25%{scale:1.03} */
-    50%{scale:1.05}
-    /* 75%{scale:1.08} */
-    100%{scale:1}
+
+#quickBtn{
+    width: 140px;
+    height: 42px;
+    border-radius: 32px;
+    margin-left: 100px;
+    position: absolute;
+    z-index:1;
+    margin-top: 440px;
+    transition: all 0.5s;
+    background-color:white;
+    border:1px solid rgba(255, 255, 255, 0);
+    font-family:footer
+}
+
+#quickBtn:hover{
+    color:white;
+    background-color: black;
+    border:0px solid rgba(255, 255, 255, 0);
+    scale:1.1
 }
 
 
@@ -122,8 +149,11 @@ h1{
 }
 
 @media (max-width:576px){
+    #photo{
+        width: 450px;
+    }
     #prodcImg{
-        width: 410px;
+        width: 450px;
         height: 550px;
     }
     #catego{
