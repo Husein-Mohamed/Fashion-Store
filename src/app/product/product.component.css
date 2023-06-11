@@ -85,7 +85,7 @@ h1{
     width: 140px;
     height: 42px;
     border-radius: 32px;
-    margin-left: 100px;
+    margin-left: 85px;
     position: absolute;
     z-index:1;
     margin-top: 440px;
@@ -132,10 +132,12 @@ h1{
     #priceCont{
         gap:170px
     }
-}
-
-@media (max-width:992px){
-    
+    #photo:hover > #quickBtn {
+        margin-top: 300px;
+    }
+    #quickBtn{
+        margin-left: 65px;
+    }
 }
 
 /* @media (max-width:1400px){
