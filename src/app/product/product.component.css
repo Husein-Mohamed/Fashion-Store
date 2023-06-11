@@ -40,10 +40,11 @@ h1{
 }
 
 #photo{
-    width: 305px;
+    width: 300px;
     height: 395px;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 #prodcImg{
@@ -62,7 +63,7 @@ h1{
     margin-top: 330px;
 }
 
-
+/* Load button */
 #loadBtn{
     height:50px;
     border-radius: 30px;
@@ -101,8 +102,6 @@ h1{
     scale:1.1
 }
 
-
-
 #producTitle{
     color:rgba(0, 0, 0, 0.557);
     margin-bottom: 0;
@@ -121,7 +120,25 @@ h1{
     font-size: 16px;
 }
 
-@media (max-width:1400px){
+#priceCont{
+    gap:200px
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    #photo{
+        width: 260px;
+        height: 365px;
+    }
+    #priceCont{
+        gap:170px
+    }
+}
+
+@media (max-width:992px){
+    
+}
+
+/* @media (max-width:1400px){
     #prodcImg{
         width: 270px;
         height: 450px;
@@ -159,4 +176,4 @@ h1{
     #catego{
         font-size: 17px;
     }
-}
+} */

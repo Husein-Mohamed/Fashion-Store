@@ -21,7 +21,31 @@
     </div>
 </div>
 
-<div class="container" style="margin-bottom: 100px;">
+<div class="container">
+    <div class="row d-flex " style="gap: 0px;">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center" *ngFor="let p of products">
+            <div class=" d-flex justify-content-center">
+                <div id="photo" style="justify-self: center;">
+                    <img id="prodcImg" src="{{p.image}}"/>
+                    <button id="quickBtn">Quick View</button>
+                </div>
+            </div>
+            <div>
+                <div id="priceCont" class="d-flex flex-row justify-content-center">
+                    <div class="d-flex flex-column w-50">
+                        <p id="producTitle" class="col-5">{{p.title}}</p>
+                        <p id="price">{{p.price}}</p>
+                    </div>
+                    <img class="col-5" id="ico" src="assets/icos/heart.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class="container" style="margin-bottom: 100px;">
     <div id="products" class="row d-flex flex-row">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 "  *ngFor="let p of products">
             <div id="photo">
@@ -40,7 +64,7 @@
             
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container">
     <div class="row">
