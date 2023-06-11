@@ -167,15 +167,3 @@ h1{
     }
 }
 
-@media (max-width:576px){
-    #photo{
-        width: 450px;
-    }
-    #prodcImg{
-        width: 450px;
-        height: 550px;
-    }
-    #catego{
-        font-size: 17px;
-    }
-} */
